@@ -1,0 +1,22 @@
+{
+  "color": {
+    "semantic": {
+      "primary": {
+        "default": { "value": "{color.base.blue}" }
+      },
+      "danger": {
+        "default": { "value": "{color.base.red}" }
+      },
+      "success": {
+        "default": { "value": "{color.base.green}" }
+      },
+      "text": {
+        "default": { "value": "{color.base.black}" },
+        "inverse": { "value": "{color.base.white}" }
+      },
+      "background": {
+        "default": { "value": "{color.base.white}" }
+      }
+    }
+  }
+}

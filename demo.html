@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design System Demo</title>
+    <link rel="stylesheet" href="build/css/_variables.css">
+    <style>
+        body {
+            font-family: var(--font-family-sans);
+            background: var(--color-semantic-background-default);
+            color: var(--color-semantic-text-default);
+            padding: var(--spacing-6);
+        }
+
+        .btn {
+            background: var(--component-button-background-default);
+            color: var(--component-button-text-default);
+            padding: var(--component-button-padding-y) var(--component-button-padding-x);
+            border-radius: var(--component-button-radius-default);
+            border: none;
+            font-size: var(--font-size-base);
+            font-weight: var(--font-weight-medium);
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: var(--component-button-background-hover);
+        }
+
+        .card {
+            background: white;
+            padding: var(--spacing-5);
+            border-radius: var(--spacing-2);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+        }
+
+        .card h2 {
+            margin: 0 0 var(--spacing-3) 0;
+            font-size: var(--font-size-2xl);
+        }
+
+        .card p {
+            margin: 0;
+            font-size: var(--font-size-base);
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Design System Demo</h1>
+
+    <div class="card">
+        <h2>Card Component</h2>
+        <p>This card uses spacing tokens for padding and margin. The button below uses component tokens.</p>
+        <button class="btn">Primary Button</button>
+    </div>
+</body>
+
+</html>
