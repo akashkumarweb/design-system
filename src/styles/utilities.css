@@ -1,0 +1,147 @@
+/* CUBE CSS: Utility Layer */
+/* Single-purpose classes using design tokens */
+
+/* Colors */
+.bg-primary {
+    background-color: var(--color-semantic-primary-default);
+}
+
+.bg-danger {
+    background-color: var(--color-semantic-danger-default);
+}
+
+.bg-success {
+    background-color: var(--color-semantic-success-default);
+}
+
+.bg-white {
+    background-color: var(--color-base-white);
+}
+
+.text-default {
+    color: var(--color-semantic-text-default);
+}
+
+.text-inverse {
+    color: var(--color-semantic-text-inverse);
+}
+
+.text-primary {
+    color: var(--color-semantic-primary-default);
+}
+
+/* Spacing */
+.p-0 {
+    padding: var(--spacing-0);
+}
+
+.p-1 {
+    padding: var(--spacing-1);
+}
+
+.p-2 {
+    padding: var(--spacing-2);
+}
+
+.p-3 {
+    padding: var(--spacing-3);
+}
+
+.p-4 {
+    padding: var(--spacing-4);
+}
+
+.p-5 {
+    padding: var(--spacing-5);
+}
+
+.p-6 {
+    padding: var(--spacing-6);
+}
+
+.m-0 {
+    margin: var(--spacing-0);
+}
+
+.m-1 {
+    margin: var(--spacing-1);
+}
+
+.m-2 {
+    margin: var(--spacing-2);
+}
+
+.m-3 {
+    margin: var(--spacing-3);
+}
+
+.m-4 {
+    margin: var(--spacing-4);
+}
+
+.m-5 {
+    margin: var(--spacing-5);
+}
+
+/* Typography */
+.font-xs {
+    font-size: var(--font-size-xs);
+}
+
+.font-sm {
+    font-size: var(--font-size-sm);
+}
+
+.font-base {
+    font-size: var(--font-size-base);
+}
+
+.font-lg {
+    font-size: var(--font-size-lg);
+}
+
+.font-xl {
+    font-size: var(--font-size-xl);
+}
+
+.font-2xl {
+    font-size: var(--font-size-2xl);
+}
+
+.font-normal {
+    font-weight: var(--font-weight-normal);
+}
+
+.font-medium {
+    font-weight: var(--font-weight-medium);
+}
+
+.font-bold {
+    font-weight: var(--font-weight-bold);
+}
+
+/* Display */
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Border Radius */
+.rounded-sm {
+    border-radius: var(--spacing-1);
+}
+
+.rounded {
+    border-radius: var(--spacing-2);
+}
+
+.rounded-lg {
+    border-radius: var(--spacing-3);
+}

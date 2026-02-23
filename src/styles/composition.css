@@ -1,0 +1,48 @@
+/* CUBE CSS: Composition Layer */
+/* Handles layout and flow, no cosmetics */
+
+.cluster {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--flow-space, var(--spacing-4));
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.stack>*+* {
+    margin-block-start: var(--flow-space, var(--spacing-4));
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+    gap: var(--flow-space, var(--spacing-4));
+}
+
+.center {
+    box-sizing: content-box;
+    margin-inline: auto;
+    text-align: center;
+    max-inline-size: var(--measure, 60ch);
+}
+
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--flow-space, var(--spacing-4));
+}
+
+.sidebar> :first-child {
+    flex-basis: 20rem;
+    flex-grow: 1;
+}
+
+.sidebar> :last-child {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-inline-size: 50%;
+}

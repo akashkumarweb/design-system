@@ -1,0 +1,7 @@
+/* Design System Main Entry */
+/* Order matters: Tokens → Composition → Utilities → Blocks */
+
+@import '../../build/css/_variables.css';
+@import 'composition.css';
+@import 'utilities.css';
+@import 'blocks.css';
